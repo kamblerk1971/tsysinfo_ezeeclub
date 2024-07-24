@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Projects\Gym App Ezeeclub\EzeeClub\build\windows\x64\CMakeFiles\abf1b4b2aef2f76f3ecf98adbde97f43\flutter_windows.dll.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Projects\Gym App Ezeeclub\EzeeClub\build\windows\x64\CMakeFiles\574f89ac5a51a9e1045dbac2841183bb\flutter_assemble.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Projects\Gym App Ezeeclub\EzeeClub\windows\flutter\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\Projects\Gym App Ezeeclub\EzeeClub\build\windows\x64\flutter\CMakeFiles\flutter_assemble" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{448EC728-50AA-38FA-9151-A37884562F94}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

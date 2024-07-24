@@ -200,15 +200,12 @@ class _HomeScreenMemberState extends State<HomeScreenMember>
       body: SafeArea(
         child: Container(
           decoration: BoxDecoration(
-            gradient: RadialGradient(
+            gradient: LinearGradient(
               colors: [
                 Colors.purple.shade400.withOpacity(0.5),
                 Colors.blue.shade900.withOpacity(0.5),
               ],
-              stops: [0.5, 1.0],
-              center: Alignment(0.3, 0.3),
-              focal: Alignment(0.5, 0.5),
-              focalRadius: 0.1,
+              
             ),
             shape: BoxShape.rectangle,
           ),

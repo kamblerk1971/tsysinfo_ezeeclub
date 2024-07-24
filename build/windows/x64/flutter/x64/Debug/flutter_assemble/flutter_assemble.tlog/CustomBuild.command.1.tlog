@@ -1,0 +1,28 @@
+^D:\PROJECTS\GYM APP EZEECLUB\EZEECLUB\BUILD\WINDOWS\X64\CMAKEFILES\ABF1B4B2AEF2F76F3ECF98ADBDE97F43\FLUTTER_WINDOWS.DLL.RULE
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=C:\Users\Delux\dev\flutter "PROJECT_DIR=D:\Projects\Gym App Ezeeclub\EzeeClub" FLUTTER_ROOT=C:\Users\Delux\dev\flutter "FLUTTER_EPHEMERAL_DIR=D:\Projects\Gym App Ezeeclub\EzeeClub\windows\flutter\ephemeral" "PROJECT_DIR=D:\Projects\Gym App Ezeeclub\EzeeClub" "FLUTTER_TARGET=D:\Projects\Gym App Ezeeclub\EzeeClub\lib\main.dart" DART_DEFINES=RkxVVFRFUl9XRUJfQ0FOVkFTS0lUX1VSTD1odHRwczovL3d3dy5nc3RhdGljLmNvbS9mbHV0dGVyLWNhbnZhc2tpdC81NWVhZTY4NjRiMjk2ZGQ5ZjQzYjJjYzc1NzdlYzI1NmU1YzMyYThkLw== DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false "PACKAGE_CONFIG=D:\Projects\Gym App Ezeeclub\EzeeClub\.dart_tool\package_config.json" C:/Users/Delux/dev/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROJECTS\GYM APP EZEECLUB\EZEECLUB\BUILD\WINDOWS\X64\CMAKEFILES\574F89AC5A51A9E1045DBAC2841183BB\FLUTTER_ASSEMBLE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROJECTS\GYM APP EZEECLUB\EZEECLUB\WINDOWS\FLUTTER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SD:/Projects/Gym App Ezeeclub/EzeeClub/windows" "-BD:/Projects/Gym App Ezeeclub/EzeeClub/build/windows/x64" --check-stamp-file "D:/Projects/Gym App Ezeeclub/EzeeClub/build/windows/x64/flutter/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

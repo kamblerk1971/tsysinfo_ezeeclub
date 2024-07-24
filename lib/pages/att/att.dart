@@ -148,6 +148,7 @@ class _AttendaceScreenState extends State<AttendaceScreen> {
             padding: EdgeInsets.all(20.0),
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
+              crossAxisAlignment: CrossAxisAlignment.center,
               children: <Widget>[
                 Image.asset('assets/pin.png',
                     height: 50,
@@ -158,6 +159,7 @@ class _AttendaceScreenState extends State<AttendaceScreen> {
                   'Enable Location',
                   style: TextStyle(
                       fontSize: width * 0.1, fontWeight: FontWeight.bold),
+                      textAlign: TextAlign.center,
                 ),
                 SizedBox(height: 10),
                 Text(

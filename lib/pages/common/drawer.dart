@@ -1,5 +1,6 @@
 import 'package:ezeeclub/models/User.dart';
 import 'package:ezeeclub/pages/att/att.dart';
+import 'package:ezeeclub/pages/drawer/help.dart';
 import 'package:ezeeclub/pages/drawer/profile.dart';
 import 'package:flutter/material.dart';
 import 'package:ezeeclub/pages/Auth/login.dart';
@@ -27,8 +28,11 @@ class _AppDrawerState extends State<AppDrawer> {
               DrawerHeader(
                 child: Column(
                   mainAxisAlignment: MainAxisAlignment.center,
-                  children:  [
-                   Image.asset("assets/downloaded/6.png",height: 120,)
+                  children: [
+                    Image.asset(
+                      "assets/downloaded/6.png",
+                      height: 120,
+                    )
                   ],
                 ),
               ),
@@ -152,7 +156,16 @@ class _AppDrawerState extends State<AppDrawer> {
               // }),
 
               buildDrawerListTile(Icons.star, "Rate Us", () {}),
-              buildDrawerListTile(Icons.help, "Help", () {}),
+              buildDrawerListTile(Icons.help, "Help", () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) {
+                      return HelpPage();
+                    },
+                  ),
+                );
+              }),
               buildDrawerListTile(Icons.feedback, "Feedback", () {}),
               buildDrawerListTile(Icons.exit_to_app, "Logout", () {
                 Navigator.pushReplacement(
