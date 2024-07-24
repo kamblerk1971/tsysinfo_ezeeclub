@@ -673,7 +673,7 @@ class _HomeScreenMemberState extends State<HomeScreenMember>
                           'What to do Today?',
                           style: TextStyle(
                             fontSize: screenWidth *
-                                0.12, // Adjust font size as needed
+                                0.15, // Adjust font size as needed
                             fontWeight: FontWeight.bold,
                             color: Colors.white,
                           ),
